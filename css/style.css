@@ -181,3 +181,86 @@ span{
 #Login-form{
     display: hidden;
 }
+
+main {
+    padding: 20px;
+}
+  
+footer {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
+  
+.pricing-card {
+   background-color: #f1f1f1;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.pricing-card h3 {
+   margin: 0;
+}
+  
+.pricing-card p {
+   margin: 10px 0;
+}
+  
+.pricing-card button {
+   background-color: #333;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+  
+  /* Courses Page Styles */
+.course-card {
+   background-color: #f1f1f1;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+  
+.course-card h3 {
+   margin: 0;
+  }
+  
+.course-card p {
+   margin: 10px 0;
+}
+  
+.course-card button {
+   background-color: #333;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+  
+section ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+  
+section ul li {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+  
+section ul li i {
+   margin-right: 10px;
+   font-size: 24px;
+}
+  
+section ul li h3 {
+   margin: 0;
+}
+  
+section ul li p {
+   margin: 10px 0;
+}
