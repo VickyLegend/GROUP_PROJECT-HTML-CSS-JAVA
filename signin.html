@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Login Form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+       <!-- header-->
+    <header class="text-center header-social-icon text-lg-start bg-primary text-white">
+      
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5  d-lg-block">
+          <span class="mx-2" ><i class="fa fa-phone mx-1"></i> </span> +2348107088409</span>
+          <span ><i class="fa  fa-calendar mx-1"></i> </span> Mon-fri: 10:00-4:00</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">TECH MASTERS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <!-- dropdown -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Team</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More options
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Courses</a></li>
+                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Features</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+          </form>
+        </div>
+      </div>
+        <div class="main">
+            <div id="Login-form" class="Login-page">
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" class="toggle-button" onclick="Login()">Log in</button>
+                        <button type="button" class="toggle-button" onclick="Register()" >Register</button>
+                    </div>
+    
+                    <div class="social-icons">
+                        <a href="http://www.facebook.com/israelmomolade" target="_blank"><ion-icon name="logo-facbook"></ion-icon></a>
+                        <a href="#" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                        <a href="https://wa.me/+2348091626180" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        <a href="#" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#" target="_blank" action="mailto: somimec2006@gmail.com"><ion-icon name="logo-gmail"></ion-icon></a>
+                    </div> 
+    
+                    <form id="Login" class="input-group-login">
+                        <input type="text" class="input-field" placeholder="User id" required>
+                        <input type="password" class="input-field" placeholder="Enter Password" required>
+                        <input type="checkbox" class="check-box"><span>Remember Password</span>
+                        <button type="submit" class="submit-btn">Log in</button>
+                    </form>
+    
+                    <form id="Register" class="input-group-register">
+                        <input type="text" class="input-field" placeholder="User id" required>
+                        <input type="email" class="input-field" placeholder="Email Id" required>
+                        <input type="text" class="input-field" placeholder="phone number" required>
+                        <input type="password" class="input-field" placeholder="Enter Password" required>
+                        <input type="password" class="input-field" placeholder="comfirm password" required>
+                        <input type="checkbox" class="check-box" required><span>I agree to the terms and conditions</span>
+                        <button type="submit" class="submit-btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script>
+            var x = document.getElementById("Login");
+            var y = document.getElementById("Register");
+            var z = document.getElementById("btn");
+
+           function Register(){
+               x.style.left = "-400px";
+               y.style.left = "50px";
+               z.style.left = "110px";
+           }  
+
+           function Login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";   
+        }  
+        </script>
+        <script>
+            var modal =document.getElementById("Login-form")
+            window.onclick =function(event){
+                if (event.target == modal){
+                    moal.style.display = "none";
+                }
+            }
+        </script>
+
+    </body>
+</html>
+  </body>
+</html>
