@@ -17,7 +17,7 @@
     <!-- css file -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body class="at-background">
 
     <!-- header-->
     <header class="text-center header-social-icon text-lg-start bg-primary text-white">
@@ -90,21 +90,14 @@
             </li>
 
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                More options
-              </a>
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More options</a>
+            </li>
 
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="">Courses</a></li>
-                <li><a class="dropdown-item"  href="#">Pricing</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Features</a></li>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="">Courses</a></li>
+              <li><a class="dropdown-item"  href="#">Pricing</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Features</a></li>
               </ul>
             </li>
           </ul>
@@ -115,42 +108,43 @@
       </div>
     </nav>
 
-    <div id="Login-form" class="Login-page">
-      <div class="form-box">
-        <div class="button-box">
-          <div id="btn">
+    <div class="main">
+      <div id="Login-page" Login="login-page">
+        <div class="form-box">
+          <div class="button-box">
+            <div id="btn"></div>
             <button type="button" class="toggle-button" onclick="Login()">Log in</button>
-            <button type="button" class="toggle-button" onclick="Register()" >Register</button>
+            <button type="button" class="toggle-button" onclick="Register()">Register</button>
           </div>
+
+          <div class="social-icons">
+            <a href="http://www.facebook.com/israelmomolade" target="_blank"><ion-icon name="logo-facbook"></ion-icon></a>
+            <a href="#" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a href="https://wa.me/+2348091626180" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="#" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#" target="_blank" action="mailto: somimec2006@gmail.com"><ion-icon name="logo-gmail"></ion-icon></a>
+          </div>
+
+          <form id="Login" class="input-group-login">
+            <input type="text" class="input-field" placeholder="User id" required>
+            <input type="password" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Log in</button>
+         </form>
+         
+         <form id="Register" class="input-group-register">
+            <input type="text" class="input-field" placeholder="User id" required>
+            <input type="email" class="input-field" placeholder="Email Id" required>
+            <input type="text" class="input-field" placeholder="phone number" required>
+            <input type="password" class="input-field" placeholder="Enter Password" required>
+            <input type="password" class="input-field" placeholder="comfirm password" required>
+            <input type="checkbox" class="check-box" required><span>I agree to the terms and conditions</span>
+            <button type="submit" class="submit-btn">Register</button>
+          </form>
         </div>
-
-        <div class="social-icons">
-          <a href="http://www.facebook.com/israelmomolade" target="_blank"><ion-icon name="logo-facbook"></ion-icon></a>
-          <a href="#" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
-          <a href="https://wa.me/+2348091626180" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
-          <a href="#" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-          <a href="#" target="_blank" action="mailto: somimec2006@gmail.com"><ion-icon name="logo-gmail"></ion-icon></a>
-        </div> 
-
-        <form id="Login" class="input-group-login">
-          <input type="text" class="input-field" placeholder="User id" required>
-          <input type="password" class="input-field" placeholder="Enter Password" required>
-          <input type="checkbox" class="check-box"><span>Remember Password</span>
-          <button type="submit" class="submit-btn">Log in</button>
-        </form>
-
-        <form id="Register" class="input-group-register">
-          <input type="text" class="input-field" placeholder="User id" required>
-          <input type="email" class="input-field" placeholder="Email Id" required>
-          <input type="text" class="input-field" placeholder="phone number" required>
-          <input type="password" class="input-field" placeholder="Enter Password" required>
-          <input type="password" class="input-field" placeholder="comfirm password" required>
-          <input type="checkbox" class="check-box" required><span>I agree to the terms and conditions</span>
-          <button type="submit" class="submit-btn">Register</button>
-        </form>
       </div>
     </div>
-
+    
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script>
       var x = document.getElementById("Login");
@@ -158,24 +152,27 @@
       var z = document.getElementById("btn");
 
       function Register(){
-        x.style.left = "-400px";
-        y.style.left = "50px";
-        z.style.left = "110px";
-      }
-     function Login(){
+      x.style.left = "-400px";
+      y.style.left = "50px";
+      z.style.left = "110px";
+      }  
+
+      function Login(){
       x.style.left = "50px";
       y.style.left = "450px";
       z.style.left = "0px";
-    }
+      }
     </script>
+
     <script>
       var modal =document.getElementById("Login-form")
       window.onclick =function(event){
         if (event.target == modal){
-            moal.style.display = "none";
+          modal.style.display = "none"
         }
       }
     </script>
+
     <footer>
       <p>&copy; 2022 TechMasters. All rights reserved.</p>
     </footer>
