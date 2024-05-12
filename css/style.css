@@ -16,8 +16,8 @@
 .header-social-icon{
     display: none;
 }
-
 }
+
 
 .navbar-brand{
     font-weight: 700;
@@ -70,7 +70,7 @@
 
 .form-box{
     width: 380px;
-    height: 480px;
+    height: 580px;
     margin: 6% auto;
     position: relative;
     padding: 5px;
@@ -89,7 +89,7 @@
 
 .toggle-button{
     position: relative;
-    padding: 10px 30px;
+    padding: 10px 28px;
     background: transparent;
     border: 0;
     outline: none;
