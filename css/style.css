@@ -71,7 +71,9 @@
 .form-box{
     width: 380px;
     height: 580px;
-    margin: 6% auto;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     padding: 5px;
     overflow: hidden;
@@ -107,28 +109,41 @@
     border-radius: 30px;
 }
 
-.social-icons{
-    margin: 50px auto;
+.social-icons-login{
+    margin-top: 30px;
     text-align: center;
 }
 
-.social-icons a{
+.social-icons-login a{
     width: 50px;
-    margin: 0 12px;
+    margin: 0 17px;
     cursor: pointer;
     box-shadow: 0 0 20px 0 #7f7f7f3d;
     border-radius: 50%;
 }
+.social-icons-register{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icons-register a{
+    width: 50px;
+    margin: 0 17px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    border-radius: 50%;
+    align-content: center;
+}
 
 .input-group-login{
-    top: 180px;
+    top: 140px;
     width: 280px;
     position: absolute;
     transition: .5s;
 }
 
 .input-group-register{
-    top: 135px;
+    top: 120px;
     width: 280px;
     position: absolute;
     transition: .5s;
@@ -160,14 +175,40 @@
 }
 
 .check-box{
-    margin: 30px 10px 30px 0;
-    padding-top: 10px;
+    margin: 15px 10px 10px 0;
+}
+
+.submit-btn-login{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box-login{
+    margin: 50px 10px 10px 0;
+}
+
+.for_login{
+    color: #ffffff;
+    font-size: 12px;
+    bottom: 195px;
+    position: absolute;
+}
+
+.main{
+    padding: 20px;
 }
 
 span{
-    color: #777;
+    color: #ffffff;
     font-size: 12px;
-    bottom: 64px;
+    bottom: 163px;
     position: absolute;
 }
 
@@ -270,4 +311,16 @@ section ul li p {
 .forget-passcode{
     font-size: 15px;
     position: absolute;
+    margin-top: 4%;
+}
+
+.signing_up_means{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.signing_up_means-login{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 42px;
 }
