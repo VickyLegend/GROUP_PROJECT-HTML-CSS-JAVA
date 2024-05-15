@@ -16,8 +16,8 @@
 .header-social-icon{
     display: none;
 }
-}
 
+}
 
 .navbar-brand{
     font-weight: 700;
@@ -62,7 +62,7 @@
     text-align: center;
     border-bottom: double;
     padding: 20px;
-}
+} 
 
 #Login-form{
     display: hidden;
@@ -201,17 +201,6 @@
     position: absolute;
 }
 
-.main{
-    padding: 20px;
-}
-
-span{
-    color: #ffffff;
-    font-size: 12px;
-    bottom: 163px;
-    position: absolute;
-}
-
 #Login{
     left: 50px;
 }
@@ -223,104 +212,111 @@ span{
 #Login-form{
     display: hidden;
 }
-  
+
 footer {
-   background-color: #333;
-   color: #fff;
-   padding: 20px;
-   text-align: center;
-}
-  
-.pricing-card {
-   background-color: #f1f1f1;
-   padding: 20px;
-   margin-bottom: 20px;
-}
-
-.pricing-card h3 {
-   margin: 0;
-}
-  
-.pricing-card p {
-   margin: 10px 0;
-}
-  
-.pricing-card button {
-   background-color: #333;
-   color: #fff;
-   border: none;
-   padding: 10px 20px;
-   border-radius: 5px;
-   cursor: pointer;
-}
-  
-  /* Courses Page Styles */
-.course-card {
-   background-color: #f1f1f1;
-   padding: 20px;
-   margin-bottom: 20px;
-}
-  
-.course-card h3 {
-   margin: 0;
-  }
-  
-.course-card p {
-   margin: 10px 0;
-}
-  
-.course-card button {
-   background-color: #333;
-   color: #fff;
-   border: none;
-   padding: 10px 20px;
-   border-radius: 5px;
-   cursor: pointer;
-}
-  
-section ul {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-}
-  
-section ul li {
-   display: flex;
-   align-items: center;
-   margin-bottom: 20px;
-}
-  
-section ul li i {
-   margin-right: 10px;
-   font-size: 24px;
-}
-  
-section ul li h3 {
-   margin: 0;
-}
-  
-section ul li p {
-   margin: 10px 0;
-}
-
-.background{
-    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%), url(../img/code.jpg);
-    background-size: cover;
-}
-
-.forget-passcode{
-    font-size: 15px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+ }
+   
+ .pricing-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+ }
+ 
+ .pricing-card h3 {
+    margin: 0;
+ }
+   
+ .pricing-card p {
+    margin: 10px 0;
+ }
+   
+ .pricing-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+   
+   /* Courses Page Styles */
+ .course-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+ }
+   
+ .course-card h3 {
+    margin: 0;
+   }
+   
+ .course-card p {
+    margin: 10px 0;
+ }
+   
+ .course-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+   
+ section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+   
+ section ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+   
+ section ul li i {
+    margin-right: 10px;
+    font-size: 24px;
+ }
+   
+ section ul li h3 {
+    margin: 0;
+ }
+   
+ section ul li p {
+    margin: 10px 0;
+ }
+ 
+ .span{
+    color: #ffffff;
+    font-size: 12px;
+    bottom: 163px;
     position: absolute;
-    margin-top: 4%;
-}
+  }
 
-.signing_up_means{
-    text-align: center;
-    color: #ffffff;
-    margin-top: 20px;
-}
-.signing_up_means-login{
-    text-align: center;
-    color: #ffffff;
-    margin-top: 42px;
-}
+ .background{
+     background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%), url(../img/code.jpg);
+     background-size: cover;
+ }
+ 
+ .forget-passcode{
+     font-size: 15px;
+     position: absolute;
+     margin-top: 4%;
+ }
+ 
+ .signing_up_means{
+     text-align: center;
+     color: #ffffff;
+     margin-top: 20px;
+ }
+ .signing_up_means-login{
+     text-align: center;
+     color: #ffffff;
+     margin-top: 42px;
+ }
