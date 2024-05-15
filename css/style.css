@@ -75,8 +75,8 @@
     position: relative;
     padding: 5px;
     overflow: hidden;
-    background-color: rgba(100, 11, 160, 0.3);
-    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%);
+    background: transparent;
+    background-size: cover;
 }
 
 .button-box{
@@ -161,6 +161,7 @@
 
 .check-box{
     margin: 30px 10px 30px 0;
+    padding-top: 10px;
 }
 
 span{
@@ -180,10 +181,6 @@ span{
 
 #Login-form{
     display: hidden;
-}
-
-main {
-    padding: 20px;
 }
   
 footer {
@@ -263,4 +260,14 @@ section ul li h3 {
   
 section ul li p {
    margin: 10px 0;
+}
+
+.background{
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%), url(../img/code.jpg);
+    background-size: cover;
+}
+
+.forget-passcode{
+    font-size: 15px;
+    position: absolute;
 }

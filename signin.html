@@ -17,7 +17,7 @@
     <!-- css file -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body class="background">
 
     <!-- header-->
     <header class="text-center header-social-icon text-lg-start bg-primary text-white">
@@ -78,7 +78,7 @@
             style="--bs-scroll-height: 100px"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
 
             <!-- dropdown -->
@@ -101,19 +101,13 @@
               </a>
 
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Courses</a></li>
+                <li><a class="dropdown-item" href="priceoffers.html">Courses</a></li>
                 <li><a class="dropdown-item" href="#">Pricing</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li><a class="dropdown-item" href="#">Features</a></li>
               </ul>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            
-            <button class="btn btn-outline-success" type="submit" href="Login.html">
-              Login
-            </button>
-          </form>
         </div>
       </div>
     </nav>
@@ -128,17 +122,19 @@
               </div>
 
               <div class="social-icons">
-                  <a href="http://www.facebook.com/israelmomolade" target="_blank"><ion-icon name="logo-facbook"></ion-icon></a>
+                  <a href="http://www.facebook.com/israelmomolade" target="_blank"><ion-icon class="fa fa-facebook-f"></ion-icon></a>
                   <a href="#" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
                   <a href="https://wa.me/+2348091626180" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
                   <a href="#" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-                  <a href="#" target="_blank" action="mailto: somimec2006@gmail.com"><ion-icon name="logo-gmail"></ion-icon></a>
+                  <a href="#" target="_blank" action="mailto: somimec2006@gmail.com"><ion-icon class="fa fa-google"></ion-icon></a>
+                  <a href="#" target="_blank" action="mailto: somimec2006@gmail.com"><ion-icon class="fa fa-github"></ion-icon></a>
               </div> 
 
               <form id="Login" class="input-group-login">
                   <input type="text" class="input-field" placeholder="User id" required>
                   <input type="password" class="input-field" placeholder="Enter Password" required>
-                  <input type="checkbox" class="check-box"><span>Remember Password</span>
+                  <a href="forgotten-password" class="forget-passcode">forgot password??</a>
+                  <input type="checkbox" class="check-box"><span>Remember Me</span>
                   <button type="submit" class="submit-btn">Log in</button>
               </form>
 
