@@ -1,0 +1,7 @@
+To add a file to your local server you use "git add"
+To check for an changes to your files, you use "git status"
+To add all files changes to your local server, you use "git ." ( . = period )
+After adding your files, you have to commit them to your local server which you'll use the "git commit" - command. 
+   NOTE: When commiting your changes, you'll have to add a message and description.
+         Example: Lets say you made changes in your css and few html files, you'll have to add them using the git add command and then use the git commit :::
+                 git commit -m(m for message)"added new files"  -m(m for description)"few html and css changes"
