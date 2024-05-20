@@ -5,3 +5,7 @@ After adding your files, you have to commit them to your local server which you'
    NOTE: When commiting your changes, you'll have to add a message and description.
          Example: Lets say you made changes in your css and few html files, you'll have to add them using the git add command and then use the git commit :::
                  git commit -m(m for message)"added new files"  -m(m for description)"few html and css changes"
+
+
+After commitingyour chnages, you then have to push your files to your github. We use the "git push" command.
+git push GROUP_PROJECT-HTML-CSS-JAVA
