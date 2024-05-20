@@ -9,3 +9,4 @@ After adding your files, you have to commit them to your local server which you'
 
 After commitingyour chnages, you then have to push your files to your github. We use the "git push" command.
 git push GROUP_PROJECT-HTML-CSS-JAVA
+
